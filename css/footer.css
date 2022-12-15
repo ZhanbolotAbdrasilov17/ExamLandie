@@ -1,0 +1,109 @@
+footer {
+  width: 100%;
+  color: #3C3C3C;
+  background-color: #fff;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 44px;
+  padding-bottom: 44px; 
+}
+
+.logo-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LudiCams {
+  margin-top: 15px;
+  margin-left: 13px;
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 35px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+main li {
+  margin-right: 74px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.18px;
+}
+
+main li:hover {
+  text-decoration-line: underline;
+}
+
+main li:active {
+  color: #8BB47D;
+}
+
+main li:last-child {
+  margin-right: 0;
+}
+
+.footer-inner > p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 0.01px;
+
+  color: #989898;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer-inner {
+    padding-top: 53px;
+    padding-bottom: 52px;
+    margin-left: 0;
+  }
+
+  main {
+    height: 145px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  main > * {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .footer-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding-top: 23px;
+    padding-bottom: 23px;
+  }
+
+  .footer-inner > * {
+    margin-bottom: 40px;
+  }
+
+  .footer-inner > p {
+    margin-bottom: 0;
+  }
+}

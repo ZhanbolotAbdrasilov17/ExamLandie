@@ -1,0 +1,149 @@
+header {
+  width: 100%;
+  background-color: #fff;
+  color: #3C3C3C;
+}
+
+.header-inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 14px;
+  padding-bottom: 11px;
+}
+
+.logo-online-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 204px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LudiCams-t {
+  margin-top: 15px;
+  margin-left: 13px;
+  font-family: 'Orbitron', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 35px;
+}
+
+.online {
+  width: 128px;
+  margin-left: 35px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.online p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.balance {
+  display: flex;
+  flex-direction: column;
+}
+
+.balance > * {
+  font-family: 'Raleway';
+  font-style: normal;
+}
+
+.sum {
+  width: 67px;
+  margin-left: -2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sum p {
+  width: 42px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.balance > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #52719F;
+}
+
+.balance > p:hover {
+  color: #3C3C3C;
+}
+
+.balance > p:active {
+  color: #8BB47D;
+}
+
+@media screen and (max-width: 720px) {
+  .header-inner {
+    padding-top: 14.5px;
+    padding-bottom: 14.5px;
+  }  
+}
+
+@media screen and (max-width: 540px) {
+  .logo {
+    width: auto;
+  }
+
+  .logo-online-group {
+    width: 165px;
+  }
+
+  .logo svg {
+    width: 33px;
+    height: 33px;
+  }
+
+  .LudiCams-t {
+    display: none;
+  }
+
+  .online {
+    width: 101px;
+    margin-left: 28px;
+  }
+
+  .online svg {
+    margin-right: 10px;
+  }
+
+  .online p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .balance > p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .logo-online-group {
+    width: auto;
+  }
+  .online {
+    margin-left: 12px;
+  }
+}

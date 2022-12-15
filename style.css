@@ -1,0 +1,42 @@
+@import url(css/header.css);
+@import url(css/footer.css);
+@import url(css/button.css);
+@import url(css/section.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', 'Raleway', sans-serif;
+}
+
+body {
+  background-color: #EBEBEB;
+}
+
+.container {
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 60px;
+}
+
+@media screen and (max-width: 1200px) {
+  .container .footer-inner {
+    padding-top: 53px;
+    padding-bottom: 52px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .container {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
